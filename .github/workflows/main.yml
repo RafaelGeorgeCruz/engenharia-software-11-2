@@ -23,7 +23,7 @@ jobs:
         run: pip install flake8
 
       - name: Executar Flake8
-        run: flake8 app.py tests/
+        run: flake8 src tests/
 
   build:
     runs-on: ubuntu-latest
