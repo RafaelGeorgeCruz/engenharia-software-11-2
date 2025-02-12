@@ -18,3 +18,6 @@ class TestCalculadora:
 
     def test_divisao(self, calc):
         assert calc.divisao(10, 2) == 5
+
+    def test_adicao_um_dois(self, calc):
+        assert calc.adicao(1, 2) == 10
